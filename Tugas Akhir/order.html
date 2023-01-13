@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="order" id="order">
+        <h1 class="heading">shop now </h1>
+        <div class="row">
+            <div class="image">
+                <img src="specs-nativ.png" alt="">
+            </div>
+            <form action="index.html" method="post" class="book-form" id="form_id">
+                <div class="inputBox">
+                    <input type="text" placeholder="Nama Lengkap" id="nama" name="nama">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="Email Pribadi" id="email" name="email">
+                    <input type="number" placeholder="Nomor Telepon" id="phone" name="phone">
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" placeholder="Model Sepatu" id="Sepatu" name="Sepatu">
+                    <input type="number" placeholder="Jumlah Pesanan" id="jumlah" name="jumlah">
+                </div>
+
+                <textarea placeholder="Alamat Lengkap" id="alamat" name="alamat"></textarea>
+                <input type="submit" value="order sekarang" class="btn" name="send" onclick="pesansepatu()">
+            </form>
+        </div>
+</body>
+</html>
